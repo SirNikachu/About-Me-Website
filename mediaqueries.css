@@ -1,6 +1,8 @@
+/* Media Queries */
+
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 83vh;
+    height: auto; /* Adjust height to auto for flexibility */
     margin-bottom: 6rem;
   }
   .about-containers {
@@ -8,7 +10,7 @@
   }
   #contact,
   #projects {
-    height: fit-content;
+    height: auto; /* Set height to auto for content fitting */
   }
 }
 
@@ -32,10 +34,10 @@
   }
   section,
   .section-container {
-    height: fit-content;
+    height: auto; /* Set height to auto */
   }
   section {
-    margin: 0 5%;
+    margin: 0 5%; /* Reduce margin for better fit on smaller screens */
   }
   .section__pic-container {
     width: 275px;
@@ -50,17 +52,18 @@
 @media screen and (max-width: 600px) {
   #contact,
   footer {
-    height: 40vh;
+    height: auto; /* Set height to auto */
+    padding: 20px 0; /* Add padding for spacing */
   }
   #profile {
-    height: 83vh;
+    height: auto; /* Set height to auto */
     margin-bottom: 0;
   }
   article {
     font-size: 1rem;
   }
   footer nav {
-    height: fit-content;
+    height: auto; /* Set height to auto */
     margin-bottom: 2rem;
   }
   .about-containers,
